@@ -1,15 +1,14 @@
 import React from 'react'
-// import { Box } from '@mui/material'
-// import { Header, Panel, TodoList } from './components'
+import { Box } from '@mui/material'
+import { Header } from './components'
 import './App.css'
-
 
 export const App = () => {
 
 
   return (
-    <div className="App">
-      hello
-    </div>
+    <Box className="App">
+      <Header />
+    </Box>
   )
 }
